@@ -38,7 +38,7 @@ const detectPackageManager = () => {
 const setupProject = async (projectName) => {
     const git = simpleGit();
     const projectPath = path.join(process.cwd(), projectName);
-    const repoUrl = "https://github.com/krisnachaitanya/mern-starter.git";
+    const repoUrl = "https://github.com/kcdevv/mern-starter.git";
 
     // Check if the directory already exists and is not empty
     if (fs.existsSync(projectPath) && fs.readdirSync(projectPath).length > 0) {
