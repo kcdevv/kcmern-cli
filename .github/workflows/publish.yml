@@ -17,6 +17,10 @@ jobs:
           node-version: 18
       - name: Install dependencies
         run: npm install
+      - name: npm login
+        run: echo "//registry.npmjs.org/:_authToken=${{
+          secrets.NPM_TOKEN
+        }}" > ~/.npmrc
       - name: Publish to npm
         run: npm publish
         env:
