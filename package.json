@@ -1,6 +1,6 @@
 {
   "name": "@kcdev/mern",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "main": "index.js",
   "bin": {
     "kcmern": "index.js"
@@ -8,7 +8,19 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": ["kcmern","@kcdev/mern","mern","mern starter","mern template","mern stack","mern boilerplate","mern scaffold","mern project","mern app","mern application"],
+  "keywords": [
+    "kcmern",
+    "@kcdev/mern",
+    "mern",
+    "mern starter",
+    "mern template",
+    "mern stack",
+    "mern boilerplate",
+    "mern scaffold",
+    "mern project",
+    "mern app",
+    "mern application"
+  ],
   "author": "Krishna Chaitanya",
   "license": "MIT",
   "description": "A MERN starter template",
